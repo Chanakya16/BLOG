@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Fira Code', monospace;;
+    background-image: url("/src/background-image.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color:black;
+}
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn1, .btn2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn1:hover, .btn2:hover {
+    opacity: 0.8;
+    background-color: #3e8e41;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333333;
+}
+
+p {
+    line-height: 1.5;
+    color: #333333;
+}
